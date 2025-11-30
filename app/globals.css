@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+  overflow-x: hidden; /* Важно для предотвращения горизонтального скролла */
+}
+
+/* Кастомные классы из твоего PHP */
+.text-gradient {
+  background: linear-gradient(135deg, #253894 0%, #63A900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Скрытие скроллбара */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Плавная прокрутка для всего HTML */
+html {
+  scroll-behavior: smooth;
+}

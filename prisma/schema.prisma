@@ -1,0 +1,97 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id            Int      @id @default(autoincrement())
+  username      String   @unique
+  password_hash String
+  @@map("admins")
+}
+
+model Event {
+  id         Int      @id @default(autoincrement())
+  title      String
+  event_date DateTime @db.Date
+  type       String   @default("event") // event, deadline, meeting
+  created_at DateTime @default(now())
+  @@map("events")
+}
+
+model News {
+  id           Int      @id @default(autoincrement())
+  
+  // Английский контент
+  title_en     String   @default("")
+  content_en   String   @db.Text @default("")
+
+  // Армянский контент
+  title_hy     String   @default("")
+  content_hy   String   @db.Text @default("")
+
+  image_url    Json     // Массив картинок
+  publish_date DateTime @db.Date
+  created_at   DateTime @default(now())
+  
+  @@map("news")
+}
+
+model Gallery {
+  id         Int      @id @default(autoincrement())
+  type       String   // photo, video, mixed
+  media_url  Json     // Убрали default
+  caption    String
+  created_at DateTime @default(now())
+  @@map("gallery")
+}
+
+model Application {
+  id         Int      @id @default(autoincrement())
+  full_name  String
+  email      String
+  college    String
+  idea       String   @db.Text
+  full_data  Json     
+  status     String   @default("pending")
+  created_at DateTime @default(now())
+  @@map("applications")
+}
+model HomeSettings {
+  id Int @id @default(autoincrement())
+  
+  // Hero Секция (EN)
+  hero_title_en String @default("Build Your")
+  hero_subtitle_en String @default("Future Business")
+  hero_desc_en String @db.Text @default("Join the ecosystem...")
+  
+  // Hero Секция (HY)
+  hero_title_hy String @default("Ստեղծիր քո")
+  hero_subtitle_hy String @default("Ապագա Բիզնեսը")
+  hero_desc_hy String @db.Text @default("Միացեք էկոհամակարգին...")
+
+  // Статистика
+  stat_1_value String @default("50+")
+  stat_1_label_en String @default("Colleges")
+  stat_1_label_hy String @default("Կոլեջներ")
+
+  stat_2_value String @default("120+")
+  stat_2_label_en String @default("Startups")
+  stat_2_label_hy String @default("Ստարտափներ")
+
+  stat_3_value String @default("∞")
+  stat_3_label_en String @default("Opportunities")
+  stat_3_label_hy String @default("Հնարավորություն")
+
+  // Слайдер
+  slider_images Json // Убрали default
+
+  updated_at DateTime @updatedAt
+  @@map("home_settings")
+}

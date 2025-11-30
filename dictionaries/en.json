@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "news": "News",
+    "events": "Events",
+    "gallery": "Gallery",
+    "apply": "Apply Now"
+  },
+  "hero": {
+    "badge": "Students & Colleges Ecosystem",
+    "title_start": "Build Your",
+    "title_end": "Future Business",
+    "desc": "Join Armenia's largest student business community. Get funding, mentorship, and grow your startup.",
+    "btn_apply": "Apply Now",
+    "btn_more": "Learn More",
+    "stats_colleges": "Colleges",
+    "stats_startups": "Startups",
+    "stats_opps": "Opportunities",
+    "slider_caption": "Moments of Success",
+    "slider_sub": "Gallery"
+  },
+  "calendar": {
+    "title": "Calendar",
+    "subtitle": "Events & Meetings",
+    "today": "Today",
+    "empty": "No upcoming events"
+  },
+  "news": {
+    "title": "Latest",
+    "subtitle": "News",
+    "read_more": "Read More",
+    "all_news": "All News",
+    "empty": "No news yet"
+  },
+  "gallery": {
+    "title": "Our",
+    "subtitle": "Gallery",
+    "desc": "Best moments and student achievements.",
+    "view_all": "View All"
+  },
+  "apply": {
+    "title": "APPLICATION FORM",
+    "subtitle": "Competition: Creation of Student Companies",
+    "success_title": "Thank You!",
+    "sections": {
+      "I": "GENERAL INFORMATION",
+      "II": "TEAM COMPOSITION",
+      "III": "IDEA DESCRIPTION",
+      "IV": "MANAGEMENT PLAN",
+      "V": "AGREEMENT"
+    },
+    "labels": {
+      "school_name": "1. Name of Educational Institution",
+      "school_name_ph": "Example: Yerevan High School N1",
+      "address": "2. Address, Region, Community",
+      "mentor_title": "3. Contact Person (Mentor)",
+      "director_title": "4. Head of Institution",
+      "name_ph": "Full Name",
+      "position_ph": "Position",
+      "phone_ph": "Phone",
+      "email_ph": "Email",
+      "school_type": "5. Type of Educational Institution",
+      "student_count": "Number of Students",
+      "company_name": "1. Company Name (Proposed)",
+      "idea_desc": "2. Brief Description of the Idea",
+      "idea_ph": "Describe your business idea...",
+      "direction": "3. Field of Activity",
+      "direction_select": "Select Direction",
+      "direction_other_ph": "Specify Direction",
+      "goals": "4. Goal and Expected Results",
+      "users": "5. Main Users and Beneficiaries",
+      "impact": "6. Expected Impact (Social/Ecological)",
+      "roles_plan": "1. Team Roles and Responsibilities",
+      "action_plan": "2. Preliminary Action Plan (Timeline)",
+      "action_plan_ph": "Example: November - Team formation...",
+      "resources": "3. Necessary Support / Resources",
+      "agreement_text_1": "By this application,",
+      "agreement_text_2": "institution expresses its agreement to participate in the competition and implement the Student Company activities in accordance with the program goals and organizer's terms.",
+      "signature": "Head of Institution (Full Name)",
+      "signature_ph": "Signer's Name",
+      "agree_check": "I Confirm"
+    },
+    "school_types": {
+      "main": "Main School",
+      "high": "High School",
+      "middle": "Secondary School",
+      "vocational": "VET Institution"
+    },
+    "directions": {
+      "production": "Production",
+      "service": "Services",
+      "social": "Social Entrepreneurship",
+      "green": "Green / Ecological",
+      "other": "Other"
+    },
+    "team_table": {
+      "name": "Full Name",
+      "grade": "Grade / Course",
+      "role": "Role in Team",
+      "role_ph": "Ex: Marketer"
+    },
+    "btn": {
+      "add_member": "Add Member",
+      "submit": "Submit Application",
+      "sending": "Sending..."
+    },
+    "word_count": "words"
+  },
+  "admin": {
+    "sidebar": {
+      "title_main": "Menu",
+      "title_settings": "Settings",
+      "dashboard": "Dashboard",
+      "applications": "Applications",
+      "events": "Events",
+      "news": "News",
+      "gallery": "Gallery",
+      "settings": "Site Settings",
+      "logout": "Logout",
+      "role": "Administrator",
+      "sub_role": "Super User"
+    },
+    "dashboard": {
+      "title": "Overview",
+      "subtitle": "Welcome to StudentBiz Control Panel",
+      "stats": {
+        "apps": "Total Applications",
+        "events": "Events",
+        "news": "News",
+        "media": "Media Files"
+      },
+      "new_apps": "New Applications",
+      "all_apps_link": "View All",
+      "no_new_apps": "No new applications",
+      "upcoming_events": "Upcoming Events",
+      "no_events": "No upcoming events",
+      "manage_calendar": "Manage Calendar",
+      "new_badge": "NEW"
+    },
+    "applications": {
+      "title": "All Applications",
+      "subtitle": "Manage incoming student applications",
+      "search_ph": "Search by name, email, or college...",
+      "found": "Found",
+      "filters": {
+        "all": "All",
+        "approved": "Approved",
+        "pending": "Pending"
+      },
+      "table": {
+        "id": "ID",
+        "status": "Status",
+        "candidate": "Candidate",
+        "institution": "Institution",
+        "actions": "Actions",
+        "view": "View",
+        "approve": "Approve",
+        "reject": "Reject"
+      },
+      "status": {
+        "approved": "Approved",
+        "pending": "Pending"
+      },
+      "empty": "No data found",
+      "modal": {
+        "idea": "Business Idea",
+        "mentor": "Mentor",
+        "director": "Director",
+        "team": "Team",
+        "plan": "Action Plan",
+        "roles": "Roles",
+        "resources": "Resources",
+        "agreement": "Agreement",
+        "signed": "Signed",
+        "not_signed": "Not Signed",
+        "approve_btn": "Approve Application",
+        "cancel_btn": "Cancel Approval"
+      }
+    },
+    "events": {
+      "title": "Events",
+      "subtitle": "Manage event calendar",
+      "add_btn": "Add Event",
+      "empty": "No events yet",
+      "modal": {
+        "title": "New Event",
+        "name_label": "Title",
+        "name_ph": "Ex: Investor Meeting",
+        "date_label": "Date",
+        "type_label": "Type",
+        "create_btn": "Create"
+      }
+    },
+    "news": {
+      "title": "News",
+      "subtitle": "Manage publications and updates",
+      "search_ph": "Search news...",
+      "sort_new": "Newest first",
+      "sort_old": "Oldest first",
+      "create_btn": "Create",
+      "published": "Published",
+      "empty": "No news found",
+      "modal": {
+        "title": "New Publication",
+        "subtitle": "Fill in the details to create news",
+        "headline_label": "Headline",
+        "headline_ph": "Enter headline...",
+        "date_label": "Publication Date",
+        "cover_label": "Cover Image",
+        "click_upload": "Click to upload",
+        "change": "Change",
+        "content_label": "Content",
+        "content_ph": "News content...",
+        "submit_btn": "Publish",
+        "submitting": "Publishing..."
+      }
+    },
+    "gallery": {
+      "upload_title": "Upload",
+      "upload_desc": "Create a new album or add media (photo/video).",
+      "album_name_label": "Album Name",
+      "album_name_ph": "Ex: Graduation 2025",
+      "files_label": "Files",
+      "select_files": "Select files",
+      "drag_drop": "or drag and drop here",
+      "publish_btn": "Publish Album",
+      "library_title": "Media Library",
+      "albums_count": "albums",
+      "items_count": "items",
+      "empty_title": "Gallery is empty",
+      "empty_desc": "Upload your first photos or videos"
+    },
+    "settings": {
+      "title": "Homepage Settings",
+      "hero_en": "Hero Section (EN)",
+      "hero_hy": "Hero Section (HY)",
+      "title_label": "Title",
+      "subtitle_label": "Subtitle",
+      "desc_label": "Description",
+      "stats_title": "Statistics",
+      "slider_title": "Slider (Main Images)",
+      "add_photo": "Add",
+      "save_btn": "Save Changes"
+    }
+  },
+  "footer": {
+    "desc": "Platform connecting students, colleges, and businesses to build Armenia's future.",
+    "rights": "All rights reserved."
+  }
+}
